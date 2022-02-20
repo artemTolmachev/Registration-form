@@ -1,0 +1,12 @@
+@import './fonts.scss';
+
+.container{
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1210px;
+}
+.background{
+    background-image: url(../image/skype.webp);
+    background-position: center;
+    background-size: cover;
+}

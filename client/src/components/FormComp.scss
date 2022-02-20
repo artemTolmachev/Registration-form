@@ -1,0 +1,57 @@
+.form-wr{
+    position: relative;
+    box-shadow: 4px 1px 35px  rgba(9, 233, 254, .16);
+    z-index: 0;
+
+    &::after{
+        content: '';
+        position: absolute;
+        bottom: 69px;
+        left: 0;
+        height: 1px;
+        width: 125%;
+        background-color: #e4e4e463;
+        z-index: 9;
+    }
+
+    &::before{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 223px;
+        width: 140px;
+        height: 140px;
+        border-radius: 100px;
+        border-radius: 86px;
+        background-color: white; 
+        box-shadow: 4px 1px 35px  rgba(9, 233, 254, .16);
+        z-index: -1;
+    }
+}
+
+.form{
+    height: 140px;
+    width: 300px;
+    background-color: white;
+    z-index: 1;
+}
+
+.form-btn{
+    position: absolute;
+    border: 0;
+    background-color: transparent;
+    top: 44px;
+    right: -91px;
+    z-index: 10;
+    cursor: pointer;
+}
+.icon-lock{
+    position: absolute;
+    bottom: 24px;
+    left: 16px;
+}
+.icon-s{
+    position: absolute;
+    top: 29px;
+    left: 16px;
+}

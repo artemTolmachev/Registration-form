@@ -1,0 +1,41 @@
+@import '../scss/fonts.scss';
+
+.nav{
+    
+    &__list{
+        list-style-type: none;
+        margin-top: 20px;
+    }
+
+    &__list:first-child{
+        margin-top: 0;
+    }
+
+    &__link{
+        font-family: 'GothamPro', serif;
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+        color: white;
+        text-decoration: none;
+        transition: color .2s ease-in;
+    }
+
+    &__link:hover{
+        color: #FF6442;
+    }
+
+
+    @media (min-width: 768px){
+        display: flex;
+
+        &__list{
+            margin-right: 30px;
+            margin-top: 0;
+        }
+    
+        &__list:last-child{
+            margin: 0;
+        }
+    }
+}

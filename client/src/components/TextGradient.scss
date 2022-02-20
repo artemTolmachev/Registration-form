@@ -1,0 +1,23 @@
+@import '../scss/main.scss';
+
+.text{
+    padding: 5% 0px 0px 5%;
+    width: 80%;
+    img{
+        width: 100%;
+    }
+
+}
+@media (min-width: 600px){
+    .text{
+        width: 67%;
+    }
+   
+}
+@media (min-width: 1025px){
+
+    .text{
+        width: 58%;
+    }
+    
+}

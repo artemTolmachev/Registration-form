@@ -1,0 +1,108 @@
+@import '../scss/main.scss';
+
+.registar-card{
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 418px;
+    height: 604px;
+
+    background-color: #F9F9F9;
+    box-shadow: 0px 4px 34px 24px rgba(255, 255, 255, 0.55);
+    border-radius: 25px;
+
+    overflow: hidden;
+
+    // &::after{
+    //     content: '';
+        
+    // }
+    &__link{
+        padding-right: 10px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 115px;
+        height: 72px;
+        top: 70px;
+        right: 0;
+
+        font-family: 'GothamPro', serif;
+        font-size: 16px;
+        font-weight: 700;
+        text-decoration: none;
+        color: #ff7d55;
+
+       
+        z-index: 0;
+
+        &::after{
+            content: '';
+            position: absolute;
+            width: 115px;
+            height: 72px;
+
+            top: -1px;
+            right: 0;
+            background-color: white;
+            z-index: -1;
+            box-shadow: 49px 1px 35px  rgba(9, 233, 254, .16);
+            transition: .2s ease-in;
+        }
+        &::before{
+            content: '';
+            position: absolute;
+
+            width: 72px;
+            height: 72px;
+
+            top: -1px;
+            right: 74px;
+
+            border-radius: 100px;
+            border-radius: 86px;
+            background-color: white; 
+            box-shadow: 4px 1px 35px  rgba(9, 233, 254, .16);
+            z-index: -5;
+            transition: .2s ease-in;
+        }
+
+        &:hover::after{
+            background-color:#b2e4fb;
+        }
+        &:hover::before{
+            background-color:#b2e4fb;
+        }
+    }
+   
+
+    &__el-left{
+        position: absolute;
+        top: -9px;
+        left: -8px;
+        pointer-events: none;
+    }
+    &__el-right{
+        position: absolute;
+        bottom: -12px;
+        right: -22px;
+    }
+
+}
+.title-wr{
+    margin: 0 auto;
+    margin-bottom: 12px;
+
+    h1{
+        font-family: 'GothamPro', serif;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 1;
+        color: rgba(2, 88, 131, 0.5);
+    }
+}
