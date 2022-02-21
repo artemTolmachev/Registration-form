@@ -13,7 +13,7 @@ import 'components/RegistarCard.scss';
 function RegisterCard(props) {
     const id = useLocation('/');
     const dispatch = useDispatch();
-    console.log()
+
     return (
         <div className='registar-card'>
             <div className="title-wr">

@@ -15,7 +15,7 @@ function App() {
 
 
   return (
-   <div>
+   <div className="main">
       <Header/>
         <Switch>
           <Route exact path="/" component={HomePage}/>

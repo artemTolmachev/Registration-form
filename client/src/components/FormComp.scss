@@ -6,20 +6,22 @@
     position: absolute;
     border: 0;
     background-color: transparent;
-    top: 44px;
-    right: -91px;
+    top: 20px;
+    right: -80px;
     z-index: 10;
     cursor: pointer;
 }
 .icon-lock{
     position: absolute;
-    bottom: 24px;
+    bottom: 15px;
     left: 16px;
+
 }
 .icon-s{
     position: absolute;
-    top: 29px;
+    top: 11px;
     left: 16px;
+
 }
 .form-wrapper{
     width: 70%;
@@ -32,19 +34,20 @@
     &::after{
         content: '';
         position: absolute;
-        bottom: 69px;
+        bottom: 50%;
         left: 0;
         height: 1px;
-        width: 125%;
-        background-color: #e4e4e463;
+        width: 128%;
+        background-color: #6662621c;
         z-index: 9;
     }
 
     &::before{
         content: '';
         position: absolute;
-        width: 144px;
-        height: 144px;
+
+        width: 92px;
+        height: 92px;
         bottom: 0;
         right: 0;
         transform: translateX(50%);

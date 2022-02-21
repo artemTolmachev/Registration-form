@@ -5,14 +5,21 @@
     padding: 0 15px;
     max-width: 1210px;
 }
+.container-card{
+    padding: 0 15px;
+    width: 350px;
+}
 .background{
     margin-top: -5px;
     display: flex;
     align-items: center;
     justify-content: center;
 
-    height: 100vh;
     background-image: url(../image/skype.webp);
     background-position: center;
     background-size: cover;
+}
+html, body, #root, .main, .background {
+    height: 100vh;
+    box-sizing: border-box;
 }

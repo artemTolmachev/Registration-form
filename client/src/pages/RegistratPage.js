@@ -6,7 +6,7 @@ export const RegisterPage = () => {
 
     return (
         <div className='registar-page background'>
-            <div className="container">
+            <div className="container-card">
                 <RegistratCard
                     link='/login'
                     title='Login'

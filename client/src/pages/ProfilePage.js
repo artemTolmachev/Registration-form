@@ -11,7 +11,7 @@ function ProfilePage(props) {
 
     return isAuth ? (
         <div className='profile-page background'>
-            <div className="container">
+            <div className="container-card">
                 <RegistarCard
                 link="#"
                 heading='Profile'

@@ -1,11 +1,16 @@
 @import '../scss/main.scss';
 
 .header{
+    margin-bottom: -1px;
     width: 100%;
     &__inner{
         padding: 20px 0;
         width: 100%;
         background-color: #0c1525;
+
+        .header__link-btn{
+            margin-top: 0;
+        }
     }
     &__wr{
  

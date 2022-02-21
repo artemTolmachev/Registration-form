@@ -1,36 +1,18 @@
 @import '../scss/main.scss';
 
 .registar-card{
-    padding-right: 15px;
     position: relative;
-    margin: 0 auto;
+    padding: 150px 0;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    min-width: 200px;
-    height: 514px;
 
     background-color: #F9F9F9;
     box-shadow: 0px 4px 34px 24px #53aba769;
     border-radius: 25px;
     overflow: hidden;
     
-    @media (min-width: 300px){
-        width: 270px;
-    }
-    @media (min-width: 520px){
-        width: 400px;
-        height: 604px;
-    }
-    // @media (min-width: 768px){
-    //     width: 60%;
-    // }
-
-    // @media (min-width: 1200px){ 
-    //     width: 30%;
-    // }
-
     &__link{
         padding-right: 10px;
         position: absolute;
@@ -38,13 +20,13 @@
         align-items: center;
         justify-content: center;
 
-        width: 115px;
-        height: 72px;
+        width: 93px;
+        height: 42px;
         top: 70px;
         right: 0;
 
         font-family: 'GothamPro', serif;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 700;
         text-decoration: none;
         color: #ff7d55;
@@ -53,8 +35,8 @@
         &::after{
             content: '';
             position: absolute;
-            width: 115px;
-            height: 72px;
+            width: 93px;
+            height: 42px;
 
             top: -1px;
             right: 0;
@@ -67,12 +49,11 @@
             content: '';
             position: absolute;
 
-            width: 72px;
-            height: 72px;
-
+            width: 42px;
+            height: 42px;
             top: -1px;
-            right: 74px;
-
+            left: 0;
+            transform: translateX(-50%);
             border-radius: 100px;
             border-radius: 86px;
             background-color: white; 
@@ -92,7 +73,7 @@
 
     &__el-left{
         position: absolute;
-        width: 80%;
+        width: 60%;
         top: -9px;
         left: -8px;
         pointer-events: none;
@@ -103,9 +84,9 @@
     }
     &__el-right{
         position: absolute;
-        width: 80%;
-        bottom: -12px;
-        right: -48px;
+        width: 60%;
+        bottom: -8px;
+        right: -25px;
 
         img{
             width: 100%;
@@ -123,9 +104,5 @@
         font-size: 36px;
         line-height: 1;
         color: rgba(2, 88, 131, 0.5);
-
-        @media (min-width: 520px){
-            font-size: 48px;
-        }
     }
 }
