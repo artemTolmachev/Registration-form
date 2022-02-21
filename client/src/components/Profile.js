@@ -6,7 +6,7 @@ import 'components/Profile.scss';
 function Profile(props) {
     return (
         <div className='profile'>
-            <img src={User} alt="user-icon" />
+            <img src={User} width={120} height={120} alt="user-icon" />
         </div>
     );
 }

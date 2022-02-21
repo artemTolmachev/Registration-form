@@ -30,8 +30,8 @@ function RegisterCard(props) {
             <div className="registar-card__el-right">
                 <img src={ElementRight} alt="decotration-element"/>
             </div>
-            {id.pathname === '/login' && <Login/>}
-            {id.pathname === '/registrat' && <SingUp/>}
+            {id.pathname === '/login' && <div className='form-wrapper'><Login/></div>} 
+            {id.pathname === '/registrat' && <div className='form-wrapper'><SingUp/></div>}
             {id.pathname === '/profile' && <Profile/>} 
         </div>
     );

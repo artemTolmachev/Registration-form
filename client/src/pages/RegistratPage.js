@@ -6,11 +6,13 @@ export const RegisterPage = () => {
 
     return (
         <div className='registar-page background'>
-            <RegistratCard
-                link='/login'
-                title='Login'
-                heading='Registrat'
-            />
+            <div className="container">
+                <RegistratCard
+                    link='/login'
+                    title='Login'
+                    heading='Registrat'
+                />
+            </div>
         </div>
     );
 }

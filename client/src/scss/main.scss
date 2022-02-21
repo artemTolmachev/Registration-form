@@ -6,6 +6,12 @@
     max-width: 1210px;
 }
 .background{
+    margin-top: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
     background-image: url(../image/skype.webp);
     background-position: center;
     background-size: cover;

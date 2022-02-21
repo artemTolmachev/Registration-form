@@ -8,11 +8,13 @@ export const LoginPage = () => {
 
     return (
         <div className='login-page background'>
-            <RegistarCard
-                link='/registrat'
-                title='Registrat'
-                heading='Login'
-            />
+            <div className="container">
+                <RegistarCard
+                    link='/registrat'
+                    title='Registrat'
+                    heading='Login'
+                />
+            </div>
         </div>
     );
 

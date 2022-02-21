@@ -5,9 +5,11 @@ import { Field } from '../utils/inputs/Field';
 import Button from 'image/button1.png';
 import Lock from 'image/lock.png';
 import Icon from 'image/@.png';
-import {ErrorMessage} from 'formik';
 
 import 'components/FormComp.scss';
+
+
+
 const SignupSchema = Yup.object().shape({
     email: Yup.string().email('Invalid email').required('Required'),
     password: Yup.string()

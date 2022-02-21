@@ -25,7 +25,11 @@ function Header(props) {
                             </div>
                     </div>  
                         :
-                        false
+                <div className='header__inner'>
+                    <div className="container">
+                        <Link className='header__link-btn' to='/'>Home</Link>
+                    </div>
+                </div>
                 }  
         </div>
     );

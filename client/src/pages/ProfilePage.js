@@ -11,10 +11,12 @@ function ProfilePage(props) {
 
     return isAuth ? (
         <div className='profile-page background'>
-            <RegistarCard
-             link="#"
-             heading='Profile'
-            />
+            <div className="container">
+                <RegistarCard
+                link="#"
+                heading='Profile'
+                />
+            </div>
         </div>
     ) : (
         <Redirect to='/login'/>
