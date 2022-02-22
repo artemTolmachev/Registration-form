@@ -9,7 +9,6 @@ const SingUp = () => {
    const {push} = useHistory();
 
     const handleRegister = (email, password) => {
-        console.log(123)
         let auth = getAuth();
         createUserWithEmailAndPassword(auth, email, password)
             .then(({user}) => {
